@@ -1,0 +1,24 @@
+.btn-google{
+    background-color: #4285f4;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    transform: transition .3s ease-in;
+    &:hover{
+        border:0.1rem solid #4285f4;
+    }
+}
+
+.navbar-brand{
+    img{
+        width: 4.2rem;
+        height: 4.2rem;
+        max-width: 100%;
+        border-radius: 12px;
+    }
+    .main-user{
+        p{
+            font-size: 16px;
+        }
+    }
+}
